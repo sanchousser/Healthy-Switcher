@@ -1,0 +1,1386 @@
+html {
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    border: 0px solid;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    margin-left: 165px;
+    margin-top: 33px;
+}
+
+body {
+    background-image: url("./imgs/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 2200px 1600px;
+    font-family: 'Helvetica Neue';
+}
+
+.title {
+
+    text-decoration: none;
+    margin-left: 199px;
+    margin-top: 44px;
+    color: #34C759;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 972px;
+    margin-top: 44px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    margin-right: 45px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Helvetica Neue';
+    position: relative;
+    color: white;
+    margin-top: 17px;
+    margin-bottom: 35px;
+}
+
+.nav-link:hover {
+    color: #34C759;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 72px;
+    text-align: center;
+}
+
+.underhero-text {
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+
+}
+
+.orderbtn {
+    font-family: 'Helvetica Neue';
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.orderbtn button {
+    padding: 25px 58px;
+    border: 0px solid;
+    border-radius: 30px;
+    background-color: #34C759;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.orderbtn button:hover {
+    cursor: pointer;
+    background-color: #191919;
+    color: #34C759;
+}
+
+.hero-description {
+    display: flex;
+    margin-top: 70px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 262px;
+    text-align: center;
+    width: 245px;
+    height: 95px;
+    color: white;
+    font-size: 18px;
+}
+
+.clock img {
+    width: 25px;
+    height: 25px;
+    margin-left: 117px;
+}
+
+.undertext {
+    font-size: 16px;
+    opacity: 0.5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 213px;
+    width: 245px;
+    height: 95px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.address img {
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 213px;
+    width: 245px;
+    height: 95px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.call img {
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+.aboutsection {
+    width: 1000px;
+    height: 900px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.about-div {
+    width: 100vw;
+    position: relative;
+    right: 10px;
+    background-color: #191919;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    font-size: 150px;
+    position: absolute;
+    color: gray;
+    opacity: 25%;
+}
+
+.about-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 170px;
+    position: absolute;
+    letter-spacing: 0.2em;
+}
+
+.aboutsection div {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    margin-top: 400px;
+    color: white;
+    font-weight: 250;
+    position: absolute;
+}
+
+.about-img {
+    position: relative;
+    margin-top: 500px;
+}
+
+.aboutsection div div {
+    display: flex;
+}
+
+.leftbtn {
+    width: 60px;
+    height: 60px;
+    margin-top: 607px;
+    margin-right: 60px;
+}
+
+.leftbtn:hover {
+    cursor: pointer;
+}
+
+.rightbtn:hover {
+    cursor: pointer;
+}
+
+.rightbtn {
+    width: 60px;
+    height: 60px;
+    margin-top: 607px;
+    margin-left: 60px;
+}
+
+.work-div {
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    right: 10px;
+}
+
+.worksection {
+    width: 1000px;
+    height: 476px;
+    display: flex;
+    justify-content: center;
+}
+
+.workscsection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.work {
+    font-size: 150px;
+    color: gray;
+    opacity: 25%;
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    right: 610px;
+}
+
+.work-title div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.work-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    position: absolute;
+    letter-spacing: 0.2em;
+    right: 572px;
+    margin-top: 120px;
+
+}
+
+.work-description {
+    display: flex;
+    margin-top: 320px;
+}
+
+.hr {
+    background-color: #34C759;
+    width: 65px;
+    height: 2px;
+    margin-top: 265px;
+    margin-left: 540px;
+    position: absolute;
+}
+
+
+.pick-card {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 206px;
+    background-color: #252525;
+    border: 0px solid;
+    border-radius: 7px;
+    margin-left: 35px;
+}
+
+.pick-card h3 {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.pick-card p {
+    font-size: 13px;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.pick-card:hover {
+    background-color: #34C759;
+    color: black;
+}
+
+.pick-card:hover h3 {
+    color: black;
+}
+
+.pick-card:hover p {
+    color: black;
+}
+
+.pick-card:hover div {
+    background-color: black;
+}
+
+.pick-card div {
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.choose-card {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 206px;
+    background-color: #252525;
+    border: 0px solid;
+    border-radius: 7px;
+    margin-left: 35px;
+}
+
+.choose-card h3 {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.choose-card p {
+    font-size: 13px;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.choose-card:hover {
+    background-color: #34C759;
+    color: black;
+}
+
+.choose-card:hover h3 {
+    color: black;
+}
+
+.choose-card:hover p {
+    color: black;
+}
+
+.choose-card:hover div {
+    background-color: black;
+}
+
+.choose-card div {
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.fast-card {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 206px;
+    background-color: #252525;
+    border: 0px solid;
+    border-radius: 7px;
+    margin-left: 35px;
+}
+
+.fast-card h3 {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.fast-card p {
+    font-size: 13px;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.fast-card:hover {
+    background-color: #34C759;
+    color: black;
+}
+
+.fast-card:hover h3 {
+    color: black;
+}
+
+.fast-card:hover p {
+    color: black;
+}
+
+.fast-card:hover div {
+    background-color: black;
+}
+
+.fast-card div {
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tasty-card {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 206px;
+    background-color: #252525;
+    border: 0px solid;
+    border-radius: 7px;
+    margin-left: 35px;
+}
+
+.tasty-card h3 {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.tasty-card p {
+    font-size: 13px;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.tasty-card:hover {
+    background-color: #34C759;
+    color: black;
+}
+
+.tasty-card:hover h3 {
+    color: black;
+}
+
+.tasty-card:hover p {
+    color: black;
+}
+
+.tasty-card:hover div {
+    background-color: black;
+}
+
+.tasty-card div {
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dishes-div {
+    margin-top: -20px;
+    width: 100vw;
+    background-color: #191919;
+    position: relative;
+    right: 10px;
+    height: 1550px;
+}
+
+.dishes {
+    font-size: 150px;
+    color: gray;
+    opacity: 25%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 120px; 
+    position: absolute;
+
+}
+
+.dishes-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dishes-div div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.dishes-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    margin-top: 170px;
+    margin-bottom: 150px;
+}
+
+.dishes-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    background-color: #191919;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    position: relative;
+    border: 0px solid;
+    border-radius: 20px;
+}
+
+.cards:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #34C759;
+    position: relative;
+    border: 0px solid;
+    border-radius: 20px;
+    color: black;
+}
+
+.cards:hover  h3 {
+    color: black;
+}
+
+.cards:hover  p {
+    color: black;
+}
+
+.cards:hover  .card-undertext {
+    color: black;
+}
+
+.cards img {
+    border-top: 0px solid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.cards h3 {
+    font-size: 32px;
+    margin-left: 30px;
+    color: #D9D9D9;
+    font-weight: 250;
+    text-align: left;
+}
+
+.card img {
+    width: 350px;
+    height: 260px;
+}
+
+.card-undertext {
+    font-size: 12px;
+    color: #A4A8B2;
+    margin-top: -30px;
+    letter-spacing: -0.15px;
+    margin-left: 30px;
+    opacity: 0.7;
+    text-align: left;
+
+}
+
+.cards p {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 30px;
+    color: #85878C;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+
+
+.card-btn {
+    padding: 15px 32px;
+    background-color: #262626;
+    border: 2px solid #303030;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 900;
+    margin: 24px;
+}
+
+.card-btn:hover {
+    padding: 15px 32px;
+    background-color: #34C759;
+    border: 0px solid 03030;
+    border-radius: 30px;
+    color: black;
+    font-size: 10px;
+    font-weight: 900;
+    margin: 24px;
+}
+
+.cards div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    width: 155px;
+    height: 30px;
+    margin: 30px;
+}
+
+.chefs-section {
+    background-color: #191919;
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.chefs-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chefs {
+    font-size: 150px;
+    color: gray;
+    opacity: 25%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 120px; 
+    position: absolute;
+}
+
+.chefs-div div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.chefs-title {
+    margin-top: 165px;
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+.chef-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.chef-card {
+    display: flex;
+    width: 350px;
+    height: 154px;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.chef-card-title {
+    display: flex;
+}
+
+.avatar {
+    margin-left: 0px;
+    width: 65px;
+    height: 65px;
+}
+
+.chef-card-title div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.chef-card-title div h2 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: -0.225px;
+    font-weight: 250;
+    margin-left: 0px;
+}
+
+.chef-card-title div h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 0px;
+}
+
+.chef-pics {
+    display: flex;
+    margin-top: 24px
+}
+
+.chef-pics img {
+    margin: 15px;
+    border: 0px solid;
+    border-radius: 3px;
+    position: relative;
+    right: 30px;
+}
+
+.recipessection {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    background-color: #191919;
+    position: relative;
+    right: 10px;
+}
+
+.recipes-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.recipes-div div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.recipes {
+    font-size: 150px;
+    color: gray;
+    opacity: 25%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 120px; 
+    position: absolute;
+}
+
+.recipes-title {
+    margin-top: 165px;
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+.recipes-news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 70px;
+
+}
+
+.big-newscard {
+    background-image: url("./imgs/placeholder.jpg");
+    width: 540px;
+    height: 510px;
+    border: 0px solid;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.big-newscard button {
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 6px 15px;
+    opacity: 0.8;
+}
+
+.big-newscard button:hover {
+    background-color: #34C759;
+    color: black;
+    border: 1px black solid;
+}
+
+.big-newscard span {
+    font-size: 14px;
+    margin-top: 65px;
+    font-weight: 300;
+}
+
+.big-newscard-text {
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 320;
+}
+
+.big-newscerd-name {
+    margin-top: 45px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.big-newscard div img {
+    margin-top: 65px;
+    width: 139px;
+    height: 30px;
+}
+
+.big-newscard div {
+    display: flex;
+    justify-content: center;
+}
+
+.first-small {
+    width: 540px;
+    height: 150px;
+    background-color: #252525;
+    border: 0px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.first-small p {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+.lunch-btn {
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 6px 15px;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+
+.lunch-btn:hover {
+    background-color: #34C759;
+    color: black;
+    border: 1px black solid;
+}
+
+.first-small div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
+    margin-left: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.first-small div img {
+    margin-right: 15px;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-small {
+    width: 540px;
+    height: 150px;
+    background-color: #252525;
+    border: 0px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(./imgs/newsimage.jpg);
+}
+
+.second-small p {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+.lunch-btn {
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 6px 15px;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+
+.second-small div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
+    margin-left: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.second-small div img {
+    margin-right: 15px;
+}
+
+.third-small {
+    width: 540px;
+    height: 150px;
+    background-color: #252525;
+    border: 0px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.third-small p {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+.lunch-btn {
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 6px 15px;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+
+.third-small div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
+    margin-left: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.third-small div img {
+    margin-right: 15px;
+}
+
+.third-small:hover {
+    color: black;
+    background-color: #34C759;
+}
+
+.third-small:hover p {
+    color: black;
+}
+
+.third-small:hover span {
+    color: black;
+}
+
+.first-small:hover {
+    color: black;
+    background-color: #34C759;
+}
+
+.first-small:hover p {
+    color: black;
+}
+
+.first-small:hover span {
+    color: black;
+}
+
+.second-small:hover {
+    color: black;
+    background-image: none;
+    background-color: #34C759;
+}
+
+.second-small:hover p {
+    color: black;
+}
+
+.second-small:hover span {
+    color: black;
+}
+
+.big-newscard:hover {
+    color: black;
+    background-image: none;
+    background-color: #34C759;
+}
+
+.big-newscard:hover p {
+    color: black;
+}
+
+.big-newscard:hover span {
+    color: black;
+}
+
+.big-newscard div button:hover button {
+    border: 1px black;
+}
+
+.socialsection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    right: 10px;
+    background-color: #191919;
+}
+
+.social-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.social-div div {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    position: absolute;
+    font-size: 150px;
+    color: gray;
+    opacity: 25%;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+}
+
+.social-title {
+    margin-top: 55px;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.social-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 330px;
+    background-color: #252525;
+}
+
+.twitter:hover {
+    color: black;
+    background-color: #34C759;
+}
+
+.twitter:hover p {
+    color: black;
+}
+
+.twitter:hover span {
+    color: black;
+}
+
+.twitter:hover h2 {
+    color: black;
+}
+
+.twitter:hover .author {
+    color: white;
+}
+
+.twitter div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-btn {
+    border: 1px black solid;
+    border-radius: 30px;
+    margin: 25px;
+    background-color: #34C759;
+    padding: 16px 18px;
+}
+
+.follow-btn:hover {
+    background-color: #191919;
+    color: #34C759;
+}
+
+.twitter-logo {
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+    margin-right: 20px;
+}
+
+.twitter-title {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin: 30px 34px 0px 20px;
+    position: relative;
+    top: 8px;
+}
+
+.twitter-date {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
+    position: relative;
+    top: 6px;
+}
+
+.twitter-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 350px;
+    height: 239px;
+}
+
+.twitter-text p {
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.author {
+    color: #34C759;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 330px;
+    background-color: #252525;
+    margin-left: 30px;
+}
+
+.instagram div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-logo {
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.instagram-title {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin: 30px 20px 30px 20px;
+    position: relative;
+    top: 8px;
+}
+
+.instagram:hover {
+    color: black;
+    background-color: #34C759;
+}
+
+.instagram:hover h2 {
+    color: black;
+}
+
+.instagram-image img{
+    width: 350px;
+    height: 239px;
+}
+
+.facebook-text {
+    margin-bottom: 30px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 330px;
+    background-color: #252525; 
+    margin-left: 30px;
+}
+
+.facebook div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-logo {
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+    margin-right: 20px;
+}
+
+.facebook-title {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin: 30px 20px 30px 20px;
+    position: relative;
+    top: 8px;
+}
+
+.facebook-date {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
+    position: relative;
+    top: 6px;
+}
+
+.facebook-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 350px;
+    height: 239px;
+}
+
+.facebook-text p {
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.facebook:hover {
+    color: black;
+    background-color: #34C759;
+}
+
+.facebook:hover p {
+    color: black;
+}
+
+.facebook:hover span {
+    color: black;
+}
+
+.facebook:hover h2 {
+    color: black;
+}
+
+.footer-title {
+    color: #34C759;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 300px;
+    background-color: #191919;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+}
